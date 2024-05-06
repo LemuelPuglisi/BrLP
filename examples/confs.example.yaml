@@ -1,0 +1,50 @@
+---
+
+#
+# Path to the trained autoencoder checkpoints
+#
+autoencoder: '/path/to/trained/autoencoder'
+
+#
+# Path to the trained UNet checkpoints
+#
+unet: '/path/to/trained/unet'
+
+#
+# Path to the trained ControlNet checkpoints
+#
+controlnet: '/path/to/trained/controlnet'
+
+#
+# Path to the trained auxiliary models
+#
+aux:
+  cn:  "/path/to/auxiliary/cn"
+  mci: "/path/to/auxiliary/mci"
+  ad:  "/path/to/auxiliary/ad"
+
+#
+# Latent Average Stabilization parameters
+#
+las: 
+  m: 10
+
+#
+# Min-max normalization parameters
+#
+minmax_params:
+  cerebral_cortex:          [370876, 744801]
+  hippocampus:              [5006,   13955]
+  amygdala:                 [1462,   5828]
+  cerebral_white_matter:    [323328, 696723]
+  lateral_ventricle:        [10404,  191374]
+
+#
+# Estimation correction parameters
+#
+median_corrections:
+  cerebral_cortex:          [0.5114, 0.1825]
+  hippocampus:              [0.6227, 0.1667]
+  amygdala:                 [1.0000, 0.0000]
+  cerebral_white_matter:    [0.6461, 0.2016]
+  lateral_ventricle:        [0.4650, 0.0817]

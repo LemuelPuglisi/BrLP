@@ -1,0 +1,4 @@
+subject_id,image_uid,age,sex,image_path,segm_path
+Bob,scan_1,65,1,/path/to/scan_1,/path/to/segm_1
+Bob,scan_2,68,1,/path/to/scan_2,/path/to/segm_2
+Bob,scan_3,70,1,/path/to/scan_3,/path/to/segm_3

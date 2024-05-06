@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brlp"
+version = "0.0.0"
+authors = []
+description = "Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyyaml",
+    "numpy == 1.*",
+    "pandas == 2.*",
+    "matplotlib == 3.*",
+    "nibabel == 5.*",
+    "torch == 2.*",
+    "tensorboard == 2.*",
+    "monai == 1.*",
+    "monai-generative == 0.*",
+    "tqdm == 4.*",
+    "leaspy @ git+ssh://git@github.com/LemuelPuglisi/leaspy-clone",
+    "rich"
+]
+
+[project.scripts]
+brlp = "brlp.cli:infer"
+
+[options]
+package_dir = "src"
+
+[options.packages.find]
+where="src"
