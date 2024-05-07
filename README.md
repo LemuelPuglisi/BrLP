@@ -9,6 +9,7 @@
 <h4 align="center"><a href="https://lemuelpuglisi.github.io/">Lemuel Puglisi</a>, <a href="https://profiles.ucl.ac.uk/3589">Daniel C. Alexander</a>, <a href="https://daniravi.wixsite.com/researchblog">Daniele Ravì</a></h4>
 
 <p align="center">
+  <a href="http://arxiv.org/abs/2405.03328">Arxiv</a> •
   <a href="#installation">Installation</a> •
   <a href="#training">Training</a> •
   <a href="#citing">Cite</a>
