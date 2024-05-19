@@ -17,6 +17,9 @@
 
 https://github.com/anon4access/BrLP/assets/121947111/303e0fc7-d617-41af-b60e-e218fd64d608
 
+> [!NOTE]  
+> 🎉 BrLP has been early-accepted at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 11%)!
+
 ## Table of Contents
 - [Installation](#installation)
 - [Data preparation](./REPR-DATA.md)
@@ -155,6 +158,19 @@ We thank the maintainers of open-source libraries for their contributions to acc
 
 ## Citing
 
+Arxiv Preprint:
+
+```bib
+@article{puglisi2024enhancing,
+  title={Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge},
+  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\`\i}, Daniele},
+  journal={arXiv preprint arXiv:2405.03328},
+  year={2024}
+}
 ```
-Currently under MICCAI 2024 review process.
+
+MICCAI 2024 proceedings:
+
+```
+Coming soon.
 ```
