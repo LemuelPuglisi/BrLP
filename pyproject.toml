@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "brlp"
 version = "0.0.0"
-authors = []
+authors = [ { name="Lemuel Puglisi", email="lemuelpuglisi001@gmail.com" } ]
 description = "Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge"
 readme = "README.md"
 requires-python = ">=3.9"
