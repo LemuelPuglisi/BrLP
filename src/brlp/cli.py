@@ -29,7 +29,7 @@ def infer():
     args = parser.parse_args()
 
     console = Console()
-    console.print(Panel("",
+    console.print(Panel("\n[white]If you use this work for your research, please cite:\n\nPuglisi, Lemuel, Daniel C. Alexander, and Daniele Ravì.\nEnhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge.\nMedical Image Computing and Computer Assisted Intervention, 2024.\n",
                         style="bold blue",
                         title="[bold orange]Brain Latent Progression", 
                         subtitle="[orange]Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge"))
