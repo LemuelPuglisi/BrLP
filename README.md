@@ -32,7 +32,7 @@ https://github.com/anon4access/BrLP/assets/121947111/303e0fc7-d617-41af-b60e-e21
 
 Download the repository, `cd` into the project folder and install the `brlp` package:
 
-```bash
+```console
 pip install -e .
 ```
 We recommend using a separate environment (see [Anaconda](https://www.anaconda.com/)). The code has been tested using python 3.9, however we expect it to work also with newer versions.
@@ -48,7 +48,7 @@ Check out our document on [*Data preparation and study reproducibility*](./REPR-
 
 Training BrLP has 3 main phases that will be discribed in the subsequent sections. Every training (except for the auxiliary model) can be monitored using `tensorboard` as follows:
 
-```bash
+```console
 tensorboard --logdir runs
 ```
 
@@ -58,7 +58,7 @@ tensorboard --logdir runs
 
 Follow the commands below to train the autoencoder.
 
-```bash
+```console
 # Create an output and a cache directory
 mkdir ae_output ae_cache
 
@@ -71,7 +71,7 @@ python scripts/training/train_autoencoder.py \
 
 Then extract the latents from your MRI data:
 
-```bash
+```console
 python scripts/prepare/extract_latents.py \
   --dataset_csv /path/to/A.csv \
   --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth
@@ -84,7 +84,7 @@ Replace `XXX` to select the autoencoder checkpoints of your choice.
 Follow the commands below to train the diffusion UNet. Replace `XXX` to select the autoencoder checkpoints of your choice.
 
 
-```bash
+```console
 # Create an output and a cache directory:
 mkdir unet_output unet_cache
 
@@ -100,7 +100,7 @@ python scripts/training/train_diffusion_unet.py \
 
 Follow the commands below to train the ControlNet. Replace `XXX` to select the autoencoder and UNet checkpoints of your choice.
 
-```bash
+```console
 # Create an output and a cache directory:
 mkdir cnet_output cnet_cache
 
@@ -117,7 +117,7 @@ python scripts/training/train_controlnet.py \
 
 Follow the commands below to train the DCM auxiliary model.
 
-```bash
+```console
 # Create an output directory
 mkdir aux_output
 
@@ -132,7 +132,7 @@ We emphasize that any disease progression model capable of predicting volumetric
 ## Inference
 
 Our package comes with a `brlp` command to use BrLP for inference. Check:
-```
+```console
 brlp --help
 ```
 
