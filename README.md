@@ -1,8 +1,4 @@
-<h1 align="center">
-  <br>
-  Brain Latent Progression
-  <br>
-</h1>
+![brlp](assets/readme-brlp.png)
 
 <h4 align="center">Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge</h4>
 
