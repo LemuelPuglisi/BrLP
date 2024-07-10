@@ -48,6 +48,7 @@ Organize your data into a CSV file (`dataset.csv`) with 9 fields in total:
 * `sex`: the sex of the subject (male=0, female=1)
 * `age`: age of the subject (divided by 100) when the MRI was acquired 
 * `diagnosis`: cognitive status (CN=0, MCI=0.5, AD=1) 
+* `last_diagnosis`: last `diagnosis` available among all follow-up visits 
 * `image_path`: absolute path to the brain MRI
 * `segm_path`: absolute path to the brain MRI segmentation
 * `latent_path`: absolute path to the brain MRI latent (*)
