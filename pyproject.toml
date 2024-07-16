@@ -22,8 +22,8 @@ dependencies = [
     "nibabel == 5.*",
     "torch == 2.*",
     "tensorboard == 2.*",
-    "monai == 1.*",
-    "monai-generative == 0.*",
+    "monai == 1.3.*",
+    "monai-generative == 0.2.3",
     "tqdm == 4.*",
     "leaspy @ git+ssh://git@github.com/LemuelPuglisi/leaspy-clone",
     "rich"
