@@ -22,7 +22,7 @@ def infer():
     parser.add_argument('--output',             type=str, required=True, help='The path to the folder where the output files will be saved.')
     parser.add_argument('--confs',              type=str, required=True, help='The path to the configuration file.')
     parser.add_argument('--target_age',         type=int, required=True, help='The last age of the predicted progression')
-    parser.add_argument('--target_diagnosis',   type=int, required=True, help='The target subject\'s diagnosis')
+    parser.add_argument('--target_diagnosis',   type=int, required=True, help='The target subject\'s diagnosis (1=CN, 2=MCI, 3=AD)')
     parser.add_argument('--steps',              type=int, required=True, help='The number of timepoints between the starting and target age')
     parser.add_argument('--threads',            type=int, default=1,     help='The number of threads')
     parser.add_argument('--cpu',                action='store_true',     help='Enable this option to use the CPU for computation instead of the GPU.')
