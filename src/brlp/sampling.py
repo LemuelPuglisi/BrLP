@@ -143,7 +143,7 @@ def sample_using_controlnet_and_z(
 
     # the subject-specific variables and the progression-related 
     # covariates are concatenated into a vector outside this function. 
-    context = context.unsqueeze(0).to(device)
+    context = context.unsqueeze(0).unsqueeze(0).to(device)
 
     # if performing LAS, we repeat the inputs for the diffusion process
     # m times (as specified in the paper) and perform the reverse diffusion
