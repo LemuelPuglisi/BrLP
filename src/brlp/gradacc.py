@@ -40,6 +40,10 @@ class GradientAccumulation:
         self.optimizer = optimizer
         self.grad_scaler = grad_scaler
 
+        # if the expected batch size is N=KM, and the actual batch size
+        # is M, then we need to accumulate gradient from N / M = K optimization steps. 
+        self.steps_until_update = expect_batch_size / actual_batch_size
+
     def step(self, loss: Tensor, step: int) -> None:
         """
         Performs a backward pass for the given loss and potentially executes an optimization 
@@ -56,9 +60,8 @@ class GradientAccumulation:
         if self.grad_scaler is not None:
             self.grad_scaler.scale(loss).backward()
         else:
-            loss.backward()
-
-        if (step + 1) % self.expect_batch_size == 0 or (step + 1) == self.loader_len:
+            loss.backward()        
+        if (step + 1) % self.steps_until_update == 0 or (step + 1) == self.loader_len:
             if self.grad_scaler is not None:
                 self.grad_scaler.step(self.optimizer)
                 self.grad_scaler.update()
