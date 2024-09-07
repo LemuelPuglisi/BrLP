@@ -14,7 +14,7 @@
 https://github.com/anon4access/BrLP/assets/121947111/303e0fc7-d617-41af-b60e-e218fd64d608
 
 > [!NOTE]  
-> 🎉 BrLP has been early-accepted at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 11%)!
+> 🎉 BrLP has been early-accepted and selected for **oral presentation** at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%)!
 
 ## Table of Contents
 - [Installation](#installation)
