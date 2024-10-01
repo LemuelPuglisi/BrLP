@@ -5,9 +5,18 @@
 <h4 align="center"><a href="https://lemuelpuglisi.github.io/">Lemuel Puglisi</a>, <a href="https://profiles.ucl.ac.uk/3589">Daniel C. Alexander</a>, <a href="https://daniravi.wixsite.com/researchblog">Daniele Ravì</a></h4>
 
 <p align="center">
-  <a href="http://arxiv.org/abs/2405.03328">Arxiv</a> •
+  <a href='http://arxiv.org/abs/2405.03328'>
+    <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'>
+  </a>
+  <a href='https://youtu.be/6YKz2MNM4jg?si=nkG21K4lIgLrH-pK'>
+    <img src='https://img.shields.io/badge/Video-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000&color=FF3737' alt='Video'>
+  </a>
+</p>
+
+<p align="center">
   <a href="#installation">Installation</a> •
   <a href="#training">Training</a> •
+  <a href="#inference">CLI Application</a> •
   <a href="#citing">Cite</a>
 </p>
 
