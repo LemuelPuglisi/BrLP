@@ -168,15 +168,13 @@ We thank the maintainers of open-source libraries for their contributions to acc
 MICCAI 2024 proceedings:
 
 ```bib
-@InProceedings{Pug_Enhancing_MICCAI2024,
-        author = { Puglisi, Lemuel and Alexander, Daniel C. and Ravì, Daniele},
-        title = { { Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge } },
-        booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
-        year = {2024},
-        publisher = {Springer Nature Switzerland},
-        volume = {LNCS 15002},
-        month = {October},
-        page = {pending}
+@inproceedings{puglisi2024enhancing,
+  title={Enhancing spatiotemporal disease progression models via latent diffusion and prior knowledge},
+  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\`\i}, Daniele},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={173--183},
+  year={2024},
+  organization={Springer}
 }
 ```
 
