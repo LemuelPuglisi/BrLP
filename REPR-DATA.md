@@ -36,7 +36,15 @@ Each MRI undergoes preprocessing. Assuming that your MRIs are already in the nif
 | Brain regions segmentation           | SynthSeg 2.0 | `mri_synthseg`                | [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)            |
 | Intensity normalization              | WhiteStripe  | `ws-normalize`                | [intensity-normalization](https://github.com/jcreinhold/intensity-normalization) |
 
-The preprocessing outputs a normalized, skull-stripped, and corrected brain MRI along with its segmentation. All these steps take approximately 30 seconds to complete (tested on a GeForce RTX 4090 GPU).
+or just run the `turboprep` pipeline ([see here](https://github.com/LemuelPuglisi/turboprep)), which executes the same steps:
+
+```bash
+turboprep <image_path> <output_folder> </path/to/MNI152template> -m t1
+```
+
+You can get the MNI152 template file [here](https://github.com/Washington-University/HCPpipelines/blob/master/global/templates/MNI152_T1_1mm_brain.nii.gz). The preprocessing outputs a normalized, skull-stripped, and corrected brain MRI along with its segmentation. All these steps take approximately 30 seconds to complete (tested on a GeForce RTX 4090 GPU).
+
+
 
 ## Organizing the dataset
 
