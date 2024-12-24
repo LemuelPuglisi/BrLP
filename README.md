@@ -22,8 +22,13 @@
 
 https://github.com/anon4access/BrLP/assets/121947111/303e0fc7-d617-41af-b60e-e218fd64d608
 
-> [!NOTE]  
-> 🎉 BrLP has been early-accepted and selected for **oral presentation** at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%)!
+**NEWS**
+
+* 🆕 The [short guide on using the BrLP CLI](https://lemuelpuglisi.github.io/blog/2024/brlp/) is out!
+* 🎉 BrLP has been nominated and shortlisted for the MICCAI Best Paper Award! (top <1%)
+* 🎉 BrLP has been early-accepted and selected for **oral presentation** at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%)!
+
+
 
 ## Table of Contents
 - [Installation](#installation)
