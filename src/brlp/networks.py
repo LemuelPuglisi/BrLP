@@ -24,7 +24,12 @@ def load_if(checkpoints_path: Optional[str], network: nn.Module) -> nn.Module:
     """
     if checkpoints_path is not None:
         assert os.path.exists(checkpoints_path), 'Invalid path'
-        network.load_state_dict(torch.load(checkpoints_path))
+        
+        # Use the same device as the model
+        device = next(network.parameters()).device
+        
+        network.load_state_dict(torch.load(checkpoints_path, map_location=device))
+
     return network
 
 
