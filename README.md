@@ -159,10 +159,10 @@ Download the pre-trained models for BrLP:
 
 | Model                  | Weights URL                                                  |
 | ---------------------- | ------------------------------------------------------------ |
-| Autoencoder            | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/uni399517_studium_unict_it/EUxUFIQtkQ1EvBqojYA5BAYByIyHbttca5Mx1cU4bC6q3A?e=uTwnM7) |
-| Diffusion Model UNet   | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/uni399517_studium_unict_it/EQT7KJTtfmRAguf8_utWeJIBUJPsRRgPZlt94s2vNbwVFw?e=ERSf1r) |
-| ControlNet             | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/uni399517_studium_unict_it/EYtVvH47dFJJnH8gtwSMA-MB8c3pm4_Z9g5F_IG1OKxW9Q?e=ztI03K) |
-| Auxiliary Models (DCM) | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/uni399517_studium_unict_it/EXJDQqLNCwBFkt2J6zg1kpwBS_1hAZoBfGy5AfcGOBZvHQ?e=2zeRqT) |
+| Autoencoder            | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EUxUFIQtkQ1EvBqojYA5BAYByIyHbttca5Mx1cU4bC6q3A?e=sCXSUA) |
+| Diffusion Model UNet   | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EQT7KJTtfmRAguf8_utWeJIBUJPsRRgPZlt94s2vNbwVFw?e=IjHnx7) |
+| ControlNet             | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EYtVvH47dFJJnH8gtwSMA-MB8c3pm4_Z9g5F_IG1OKxW9Q?e=CzvGT4) |
+| Auxiliary Models (DCM) | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EXJDQqLNCwBFkt2J6zg1kpwBS_1hAZoBfGy5AfcGOBZvHQ?e=Z05kOG) |
 
 ## Acknowledgements
 
