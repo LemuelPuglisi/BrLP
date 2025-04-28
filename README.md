@@ -24,6 +24,7 @@ https://github.com/anon4access/BrLP/assets/121947111/303e0fc7-d617-41af-b60e-e21
 
 **NEWS**
 
+* 🎉 A [new paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/1340621/A-technical-assessment-of-latent-diffusion-for-Alzheimers-disease-progression/10.1117/12.3047135.short) from Vanderbilt University has replicated our results on the [BLSA](https://www.blsa.nih.gov/) dataset!
 * 🆕 The [short guide on using the BrLP CLI](https://lemuelpuglisi.github.io/blog/2024/brlp/) is out!
 * 🎉 BrLP has been nominated and shortlisted for the MICCAI Best Paper Award! (top <1%)
 * 🎉 BrLP has been early-accepted and selected for **oral presentation** at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%)!
