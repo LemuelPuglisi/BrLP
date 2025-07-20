@@ -1,17 +1,22 @@
 ![brlp](assets/readme-brlp.png)
 
+<p align="center">
+  <a href='https://arxiv.org/pdf/2502.08560'>
+    <img src='https://img.shields.io/badge/Journal-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>
+  </a>
+  <a href='https://papers.miccai.org/miccai-2024/paper/0511_paper.pdf'>
+    <img src='https://img.shields.io/badge/MICCAI-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>
+  </a>
+  <a href='https://youtu.be/6YKz2MNM4jg?si=nkG21K4lIgLrH-pK'>
+    <img src='https://img.shields.io/badge/Video-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white&color=FF3737' alt='Video'>
+  </a>
+</p>
+
 <h4 align="center">Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge</h4>
 
 <h4 align="center"><a href="https://lemuelpuglisi.github.io/">Lemuel Puglisi</a>, <a href="https://profiles.ucl.ac.uk/3589">Daniel C. Alexander</a>, <a href="https://daniravi.wixsite.com/researchblog">Daniele Ravì</a></h4>
 
-<p align="center">
-  <a href='https://papers.miccai.org/miccai-2024/paper/0511_paper.pdf'>
-    <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'>
-  </a>
-  <a href='https://youtu.be/6YKz2MNM4jg?si=nkG21K4lIgLrH-pK'>
-    <img src='https://img.shields.io/badge/Video-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000&color=FF3737' alt='Video'>
-  </a>
-</p>
+https://github.com/user-attachments/assets/28ad3693-5e3e-4f6e-9bbc-485424fbbee2
 
 <p align="center">
   <a href="#installation">Installation</a> •
@@ -20,10 +25,9 @@
   <a href="#citing">Cite</a>
 </p>
 
-https://github.com/anon4access/BrLP/assets/121947111/303e0fc7-d617-41af-b60e-e218fd64d608
 
 **NEWS**
-
+* 🎉 Our [extension paper](https://arxiv.org/pdf/2502.08560) has been accepted for publication in Medical Image Analysis (*IF=11.8*)
 * 🎉 A [new paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/1340621/A-technical-assessment-of-latent-diffusion-for-Alzheimers-disease-progression/10.1117/12.3047135.short) from Vanderbilt University has replicated our results on the [BLSA](https://www.blsa.nih.gov/) dataset!
 * 🆕 The [short guide on using the BrLP CLI](https://lemuelpuglisi.github.io/blog/2024/brlp/) is out!
 * 🎉 BrLP has been nominated and shortlisted for the MICCAI Best Paper Award! (top <1%)
@@ -171,6 +175,17 @@ We thank the maintainers of open-source libraries for their contributions to acc
 
 ## Citing
 
+Medical Image Analysis:
+
+```bib
+@article{puglisi2025brain,
+  title={Brain latent progression: Individual-based spatiotemporal disease progression on 3D brain MRIs via latent diffusion},
+  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\`\i}, Daniele},
+  journal={Medical Image Analysis},
+  year={2025}
+}
+```
+
 MICCAI 2024 proceedings:
 
 ```bib
@@ -184,15 +199,17 @@ MICCAI 2024 proceedings:
 }
 ```
 
-Arxiv Preprint:
 
+SPIE Medical Imaging 2025 proceedings: 
 ```bib
-@article{puglisi2024enhancing,
-  title={Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge},
-  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\`\i}, Daniele},
-  journal={arXiv preprint arXiv:2405.03328},
-  year={2024}
+@inproceedings{mcmaster2025technical,
+  title={A technical assessment of latent diffusion for Alzheimer's disease progression},
+  author={McMaster, Elyssa and Puglisi, Lemuel and Gao, Chenyu and Krishnan, Aravind R and Saunders, Adam M and Ravi, Daniele and Beason-Held, Lori L and Resnick, Susan M and Zuo, Lianrui and Moyer, Daniel and others},
+  booktitle={Medical Imaging 2025: Image Processing},
+  volume={13406},
+  pages={505--513},
+  year={2025},
+  organization={SPIE}
 }
 ```
-
 
