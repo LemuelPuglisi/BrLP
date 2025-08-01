@@ -1,7 +1,7 @@
 ![brlp](assets/readme-brlp.png)
 
 <p align="center">
-  <a href='https://arxiv.org/pdf/2502.08560'>
+  <a href='https://www.sciencedirect.com/science/article/pii/S1361841525002816'>
     <img src='https://img.shields.io/badge/Journal-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>
   </a>
   <a href='https://papers.miccai.org/miccai-2024/paper/0511_paper.pdf'>
