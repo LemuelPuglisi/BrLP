@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=LemuelPuglisi&project=BrLP&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 ![brlp](assets/readme-brlp-v2.png)
 
 <p align="center">
